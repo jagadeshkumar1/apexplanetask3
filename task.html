@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Interactive Site</title>
+    <link rel="stylesheet" href="task.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>🌟 Interactive WOW Site 🌟</h1>
+        <ul>
+            <li><a href="#carousel">Carousel</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#api">API Fun</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <!-- Image Carousel -->
+        <section id="carousel" class="carousel-section">
+            <h2>Image Carousel</h2>
+            <div class="carousel">
+                <button class="carousel-btn" id="prevBtn">&#8592;</button>
+                <img id="carousel-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Carousel Image">
+                <button class="carousel-btn" id="nextBtn">&#8594;</button>
+            </div>
+            <div class="carousel-dots" id="carousel-dots"></div>
+        </section>
+
+        <!-- Interactive Quiz -->
+        <section id="quiz" class="quiz-section">
+            <h2>Quick Quiz</h2>
+            <div id="quiz-container">
+                <!-- Quiz will be injected here -->
+            </div>
+        </section>
+
+        <!-- API Data Fetch -->
+        <section id="api" class="api-section">
+            <h2>Random Joke API</h2>
+            <button id="joke-btn">Get a Joke 😂</button>
+            <div id="joke-display"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Made with ❤️ and JavaScript</p>
+    </footer>
+    <script src="task.js"></script>
+</body>
+</html>
